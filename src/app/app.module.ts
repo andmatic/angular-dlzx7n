@@ -14,7 +14,7 @@ import { ProductListComponent } from './product-list/product-list.component';
     ReactiveFormsModule,
     RouterModule.forRoot([{ path: '', component: ProductListComponent }])
   ],
-  declarations: [AppComponent, TopBarComponent, ProductListComponent],
+  declarations: [AppComponent, TopBarComponent, ProductListComponent,ProductAlertComponent],
   bootstrap: [AppComponent]
 })
 export class AppModule {}

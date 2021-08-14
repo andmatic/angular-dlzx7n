@@ -20,5 +20,5 @@ can be found in the LICENSE file at https://angular.io/license
     Share
   </button>
 
-  <app-product-alert></app-product-alert>
+  <app-product-alert [product]="product" (notify)="onNotify()"></app-product-alert>
 </div>
